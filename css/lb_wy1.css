@@ -1,0 +1,378 @@
+html,
+body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  text-align: justify;
+  font-size: 12px;
+}
+.wraper {
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+}
+img {
+  display: block;
+}
+.neirong1 {
+  min-width: 1200px;
+  max-width: 1920px;
+  height: 709px;
+  background: url(../img/top1.jpg) center top no-repeat;
+  margin-top: 99px;
+}
+.neirong1 .banner {
+  min-width: 1200px;
+  height: 42px;
+  position: relative;
+  bottom: 99px;
+}
+.neirong1 .t_nav {
+  font-size: 18px;
+  color: #ccc;
+  position: relative;
+  bottom: 100px;
+  min-width: 1200px;
+  max-width: 1920px;
+  height: 110px;
+  background: url(../img/nav_spr9.png) center top no-repeat;
+}
+.neirong1 .t_nav .nav {
+  position: absolute;
+  top: 0;
+  left: 360px;
+}
+.neirong1 .t_nav .nav b {
+  margin-top: 20px;
+  margin-right: 10px;
+  float: left;
+  display: block;
+  width: 4px;
+  height: 18px;
+  background-color: #d98500;
+}
+.neirong1 .t_nav .nav a {
+  margin-top: 20px;
+  font-size: 14px;
+  display: block;
+  line-height: 18px;
+  text-decoration: none;
+  text-align: left;
+  color: #ccc;
+  font-weight: 700;
+  float: left;
+  margin-right: 50px;
+}
+.neirong1 .t_nav .nav a span {
+  display: block;
+  padding-bottom: 6px;
+  font-size: 18px;
+}
+.neirong1 .t_nav .dl_box {
+  position: absolute;
+  top: 0px;
+  right: 100px;
+  padding: 20px;
+  font-size: 12px;
+  width: 360px;
+}
+.neirong1 .t_nav .dl_box p {
+  color: #fff;
+  float: left;
+  margin-top: 10px;
+}
+.neirong1 .t_nav .dl_box p a {
+  color: #fff;
+  text-decoration: none;
+}
+.neirong1 .t_nav .dl_box > a {
+  text-align: center;
+  line-height: 52px;
+  width: 154px;
+  height: 62px;
+  background: url(../img/nav_spr_icon.png);
+  color: #000;
+  font-size: 20px;
+  float: right;
+  text-decoration: none;
+}
+.neirong1 .t_nav .shou {
+  position: absolute;
+  top: 6px;
+  left: 156px;
+  width: 144px;
+  height: 68px;
+}
+.neirong1 .gu1 {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+.neirong2 {
+  min-width: 1200px;
+  max-width: 1920px;
+  height: 754px;
+  background: url(../img/p1_bg1.jpg) center top no-repeat;
+  padding-top: 10px ;
+  color: white;
+  box-sizing: border-box;
+}
+.neirong2 .wraper {
+  position: relative;
+}
+.neirong2 .lt {
+  width: 42%;
+  padding-left: 12px;
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+}
+.neirong2 .lt h2 {
+  margin-top: 160px;
+  font-size: 20px;
+  line-height: 40px;
+}
+.neirong2 .lt p {
+  line-height: 22px;
+  font-size: 16px;
+  position: relative;
+  height: 60px;
+}
+.neirong2 .lt p:nth-child(4) {
+  height: 40px;
+}
+.neirong2 .lt p:nth-child(5) {
+  height: 40px;
+}
+.neirong2 .lt p span:first-child {
+  position: absolute;
+  left: 0;
+}
+.neirong2 .lt p span:last-child {
+  position: absolute;
+  left: 16px;
+}
+.neirong2 .lt > a {
+  position: relative;
+  z-index: 9;
+  display: block;
+  margin-top: 10px;
+  margin-left: 16px;
+  width: 164px;
+  height: 46px;
+  background: url(../img/p1_kf.png);
+}
+.neirong2 #VideoContent {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 99999;
+  width: 800px;
+  height: 450px;
+  border: 10px solid #c4ad75;
+  display: none;
+}
+.neirong2 #VideoContent video {
+  width: 100%;
+  height: 100%;
+}
+.neirong2 #VideoContent embed {
+  width: 100%;
+  height: 100%;
+}
+.neirong2 #VideoContent .cha {
+  color: #c4ad75;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: -20px;
+  right: -70px;
+  font-size: 60px;
+  line-height: 60px;
+  text-align: center;
+}
+.neirong2 .gt {
+  position: absolute;
+  top: 160px;
+  width: 636px;
+  height: 356px;
+  right: 0;
+  background: url(../img/sp_b_auto.jpg) center top no-repeat;
+}
+.neirong2 .gt a {
+  display: block;
+  width: 636px;
+  height: 356px;
+  border: 1px solid #999;
+  position: absolute;
+  top: 0;
+  z-index: 3;
+}
+.neirong2 .gt b {
+  display: block;
+  position: absolute;
+  top: 0px;
+  width: 636px;
+  height: 356px;
+  background: url(../img/sp_c.png) center no-repeat;
+  z-index: 1;
+}
+.neirong2 .bei {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 160px;
+}
+.neirong2 .bei h2 {
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  margin: 0;
+}
+.neirong2 .bei p {
+  text-align: center;
+  font-size: 26px;
+  color: #d98500;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.neirong2 .bei div {
+  margin-top: 30px;
+  width: 100%;
+  height: 40px;
+  background: url(../img/progress.png) no-repeat 0 -48px;
+}
+.neirong3 {
+  min-width: 1200px;
+  max-width: 1920px;
+  height: 832px;
+  background: url(../img/p1_bg2.jpg) center top no-repeat;
+  padding-top: 136px;
+  box-sizing: border-box;
+}
+.neirong3 .fangfa {
+  width: 1200px;
+  height: 750px;
+  background: url(../img/sp_info.png) no-repeat;
+  text-align: center;
+  position: relative;
+}
+.neirong3 .fangfa h2 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 24px;
+  margin: auto;
+  display: block;
+  font-size: 40px;
+  line-height: 48px;
+}
+.neirong3 .fangfa span {
+  position: absolute;
+  right: 24px;
+  top: 40px;
+}
+.neirong3 .fangfa span a {
+  color: #d98500;
+  padding-left: 36px;
+  font-size: 20px;
+}
+.neirong3 .fangfa .tu {
+  position: absolute;
+  bottom: 160px;
+}
+.neirong3 .fangfa .tu img {
+  position: absolute;
+  bottom: 0;
+}
+.neirong3 .fangfa .box {
+  width: 500px;
+  height: 240px;
+  position: absolute;
+  bottom: 160px;
+  right: 0;
+}
+.neirong3 .fangfa .box img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.neirong3 .yanshi1 {
+  position: absolute;
+  top: 170px;
+  left: 480px;
+  z-index: 6;
+  color: #d98500;
+}
+.neirong3 .yanshi2 {
+  position: absolute;
+  top: 170px;
+  right: 40px;
+  z-index: 6;
+  color: #d98500;
+}
+.neirong3 .shiyi {
+  display: inline;
+  position: absolute;
+  top: 340px;
+  right: 80px;
+  z-index: 6;
+  color: #d98500;
+}
+.neirong3 .xiazai {
+  width: 440px;
+  height: 100px;
+  position: absolute;
+  z-index: 6;
+  top: 235px;
+  left: 88px;
+}
+.neirong3 .logo {
+  width: 220px;
+  height: 120px;
+  position: absolute;
+  z-index: 6;
+  top: -130px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.neirong3 .no {
+  display: none;
+}
+.neirong4 {
+  min-width: 1200px;
+  max-width: 1920px;
+  height: 1063px;
+  background: url(../img/p1_bg3.jpg) center top no-repeat;
+  padding-top: 180px;
+  box-sizing: border-box;
+}
+.neirong4 ul {
+  padding-left: 80px;
+}
+.neirong4 li {
+  font-size: 18px;
+  line-height: 24px;
+  list-style: none;
+}
+.neirong4 li div {
+  margin-bottom: 36px;
+  margin-top: 4px;
+}
+.neirong4 li div a {
+  color: #ec660c ;
+}
+.neirong4 li .q {
+  font-size: 22px;
+  display: inline;
+  padding: 0 10px ;
+  margin: 0;
+  background: url(../img/foot_txt_bg_all.png);
+  color: #fff;
+}

@@ -1,0 +1,178 @@
+
+.lifangti {
+  transform: rotateX(-33.5deg) rotateY(45deg);
+  transform-origin: 50px 0px;
+  transform-style: preserve-3d;
+  -webkit-transform: rotateX(-33.5deg) rotateY(45deg);
+  -webkit-transform-origin: 50px 0px;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform: rotateX(-33.5deg) rotateY(45deg);
+  -moz-transform-origin: 50px 0px;
+  top: 238px;
+  left: 193px;
+  margin: -100px 0 0 -50px;
+  position: absolute;
+  display: block;
+  animation: xuanzhuan 5s infinite ease;
+  -moz-animation: xuanzhuan 5s infinite ease; /* Firefox */
+  -webkit-animation: xuanzhuan 5s infinite ease; /* Safari 和 Chrome */
+  -o-animation: xuanzhuan 5s infinite ease; /* Opera */
+}
+
+  .lifangti > .bgabox {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    opacity: 0.6;
+  }
+
+.leftm {
+  background: url("../img/m10.jpg");
+  background-size: 100px 100px;
+  transform: rotateY(90deg) translateZ(-50PX);
+  -moz-transform: rotateY(90deg) translateZ(-50PX);
+  -webkit-transform: rotateY(90deg) translateZ(-50PX);
+}
+
+.rightm {
+  background: url("../img/m11.jpg");
+  background-size: 100px 100px;
+  transform: rotateY(90deg) translateZ(50px);
+  -moz-transform: rotateY(90deg) translateZ(50px);
+  -webkit-transform: rotateY(90deg) translateZ(50px);
+}
+
+.topm {
+  background: url("../img/m2.jpg");
+  background-size: 100px 100px;
+  transform: rotateX(90deg) translateZ(50px);
+  -moz-transform: rotateX(90deg) translateZ(50px);
+  -webkit-transform: rotateX(90deg) translateZ(50px);
+  background-color: #ff0000;
+  opacity: 1;
+}
+
+.bottomm {
+
+  transform: rotateX(90deg) translateZ(-50px);
+  -moz-transform: rotateX(90deg) translateZ(-50px);
+  -webkit-transform: rotateX(90deg) translateZ(-50px);
+  background:url("../img/m4.jpg");
+}
+
+.beform {
+  background: url("../img/m4.jpg");
+  background-size: 100px 100px;
+  transform: translateZ(50px);
+  -moz-transform: translateZ(50px);
+  -webkit-transform: translateZ(50px);
+}
+
+.afterm {
+  background: url("../img/m5.jpg");
+  background-size: 100px 100px;
+  transform: translateZ(-50px);
+  -moz-transform: translateZ(-50px);
+  -webkit-transform: translateZ(-50px);
+}
+
+@keyframes xuanzhuan {
+  from {
+    transform: rotateX(-33.5deg) rotateY(45deg);
+    -webkit-transform: rotateX(-33.5deg) rotateY(45deg);
+    -moz-transform: rotateX(-33.5deg) rotateY(45deg);
+  }
+
+  to {
+    transform: rotateX(-33.5deg) rotateY(765deg);
+    -webkit-transform: rotateX(-33.5deg) rotateY(765deg);
+    -moz-transform: rotateX(-33.5deg) rotateY(765deg);
+  }
+}
+
+.lifangtimin {
+  transform-origin: 25px 0px;
+  transform-style: preserve-3d;
+  -webkit-transform-origin: 25px 0px;
+  top: 50%;
+  margin: -50px 0 0 -25px;
+  position: absolute;
+  display: block;
+  transform: translateX(50px) translateY(75px) rotateY(0deg);
+  -webkit-transform: translateX(50px) translateY(75px) rotateY(0deg);
+  -moz-transform: translateX(50px) translateY(75px) rotateY(0deg);
+  animation: xuanzhuanm 5s infinite ease;
+  -moz-animation: xuanzhuanm 5s infinite ease; /* Firefox */
+  -webkit-animation: xuanzhuanm 5s infinite ease; /* Safari 和 Chrome */
+  -o-animation: xuanzhuanm 5s infinite ease; /* Opera */
+}
+
+  .lifangtimin > div {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    opacity: 1;
+  }
+
+.leftmm {
+  background: url("../img/m6.jpg");
+  background-size: 50px 50px;
+  transform: rotateY(90deg) translateZ(-25px);
+  -webkit-transform: rotateY(90deg) translateZ(-25px);
+  -moz-transform: rotateY(90deg) translateZ(-25px);
+}
+
+.rightmm {
+  background: url("../img/m7.jpg");
+  background-size: 50px 50px;
+  transform: rotateY(90deg) translateZ(25px);
+  -webkit-transform: rotateY(90deg) translateZ(25px);
+  -moz-transform: rotateY(90deg) translateZ(25px);
+}
+
+.topmm {
+  background: url("../img/m8.jpg");
+  background-size: 50px 50px;
+  transform: rotateX(90deg) translateZ(25px);
+  -webkit-transform: rotateX(90deg) translateZ(25px);
+  -moz-transform: rotateX(90deg) translateZ(25px);
+  background:url("../img/m5.jpg");
+  opacity: 1;
+}
+
+.bottommm {
+  transform: rotateX(90deg) translateZ(-25px);
+  -webkit-transform: rotateX(90deg) translateZ(-25px);
+  -moz-transform: rotateX(90deg) translateZ(-25px);
+  background:url("../img/m9.jpg");
+}
+
+.beformm {
+  background: url("../img/m9.jpg");
+  background-size: 50px 50px;
+  transform: translateZ(25px);
+  -webkit-transform: translateZ(25px);
+  -moz-transform: translateZ(25px);
+}
+
+.aftermm {
+  background: url("../img/m15.jpg");
+  background-size: 50px 50px;
+  transform: translateZ(-25px);
+  -webkit-transform: translateZ(-25px);
+  -moz-transform: translateZ(-25px);
+}
+
+@keyframes xuanzhuanm {
+  from {
+    transform: translateX(50px) translateY(75px) rotateY(0deg);
+    -webkit-transform: translateX(50px) translateY(75px) rotateY(0deg);
+    -moz-transform: translateX(50px) translateY(75px) rotateY(0deg);
+  }
+
+  to {
+    transform: translateX(50px) translateY(75px) rotateY(-1080deg);
+    -webkit-transform: translateX(50px) translateY(75px) rotateY(-1080deg);
+    -moz-transform: translateX(50px) translateY(75px) rotateY(-1080deg);
+  }
+}

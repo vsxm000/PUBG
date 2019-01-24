@@ -1,0 +1,1078 @@
+ /* 动态背景 */
+#bgc_div {
+  width: 100%;
+  position: absolute;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+/* 头部导航 */
+#Thead_top {
+  box-shadow: 0px 2px 3px #ccc;
+  background-color: rgba(16, 193, 206, 0.6);
+  transition: all 2s;
+}
+/* 更换类样式 改变导航背景色 */
+#Thead_top.jzqclass {
+  transition: all 2s;
+  background-color: rgba(244, 172, 134, .8);
+}
+#Thead_top.zmclass {
+  transition: all 2s;
+  background-color: rgba(227, 5, 0, .8);
+}
+#Thead_top.lqhclass {
+  transition: all 2s;
+  background-color: #A24540;
+}
+#Thead_top.ptclass {
+  transition: all 2s;
+  background-color: rgba(216, 78, 192, 0.85);
+}
+#Thead_top.yxjclass {
+  transition: all 2s;
+  background-color: rgba(102, 64, 175, 0.45);
+}
+#Thead_top.sxjclass {
+  transition: all 2s;
+  background-color: rgba(229, 16, 64, 0.85);
+}
+#Thead_top.zzfclass {
+  transition: all 2s;
+  background-color: rgba(92, 219, 157, 0.85);
+}
+#Thead_top.mjrclass{
+  transition: all 2s;
+  background-color: rgba(0, 128, 155, 0.8);
+}
+#Thead_top.wbwclass{
+  transition: all 2s;
+  background-color: rgba(4, 6, 3, 0.92);
+}
+#Thead_top.zhhclass{
+  transition: all 2s;
+  background-color: rgba(0, 206, 233, 0.9);
+}
+.thead_w_top_one {
+  height: 60px;
+  // background: red;
+}
+.thead_w_top_one_h1 {
+  width: 15%;
+  margin: 0;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  // background: pink;
+}
+.thead_w_top_one_div {
+  width: 35%;
+  position: relative;
+}
+.thead_w_top_one_div ul i{
+  margin-right: 10px;
+}
+.thead_w_top_one_div > img {
+  width: 4.6%;
+  height: 20px;
+  position: absolute;
+  top: 33%;
+  animation: dong 1s infinite linear;
+}
+@keyframes dong {
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+.thead_w_top_one_div ul {
+  height: 60px;
+  margin-left: 10%;
+  line-height: 60px;
+}
+.thead_w_top_one_div ul li{
+  float: left;
+  width: 20%;
+  height: 100%;
+  text-align: center;
+}
+.thead_w_top_one_div > ul > li > a {
+  display: block;
+  font-size: 14px;
+}
+.thead_w_top_one_div > ul > li > a:hover{
+  color: #fff;
+  transition: .3s all ;
+}
+
+
+/* 背景轮播 */
+#bgclb {
+  position: relative;
+}
+
+#bgclb a {
+  font-size: 110px;
+  opacity: 0.1;
+}
+.leftbox {
+  position: absolute;
+  left: 65px;
+  top: 218px;
+  width: 100px;
+  height: 100px;
+}
+.rightbox {
+  position: absolute;
+  right: 74px;
+  top: 218px;
+  width: 100px;
+  height: 100px;
+}
+
+
+
+
+
+/* 内容展示 */
+/* 轮播类名切换 */
+.about_us > ul > li {
+  display: none;
+}
+.about_us > ul > li.active {
+  display: block;
+}
+.body_box {
+  height: 500px;
+  margin-top: 150px;
+  background: rgba(255, 255, 255, 0.6);
+  box-shadow: 5px 5px 3px #ccc,
+              -5px -5px 3px #ccc;
+  border-radius: 5px;
+}
+
+/* 立方体背景+左边盒子 */
+.lifangti_bg {
+  width: 32%;
+  height: 450px;
+  position: relative;
+  margin-top: 25px;
+  margin-left: 125px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: 1px solid rgba(16, 193, 206, 0.6);
+  border-radius: 20px;
+  overflow: hidden;
+}
+.lifangti_bg > p {
+  width: 100%;
+  height: 30%;
+  text-align: center;
+  border-top: 1px solid rgba(16, 193, 206, 0.8);
+  position: absolute;
+  left: 0;
+  bottom: -135px;
+  // background: rgba(16, 193, 206, 0.1);
+  border-radius: 20px;
+  // font-size: 20px;
+}
+.lifangti_bg > p > span {
+  float: left;
+}
+.lifangti_bg > p > span:first-child{
+  width: 368px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 18px;
+  margin-left: 15px;
+  border-bottom: 1px solid rgba(16, 193, 206, 0.5);
+}
+.lifangti_bg > p > span:last-child {
+  font-size:14px;
+  width: 280px;
+  margin-left: 65px;
+  padding-top: 22px;
+  display: none;
+  line-height: 25px;
+}
+.lifangti > div {
+  display: none;
+}
+/* 右边盒子 */
+.bodybg_rig {
+  width: 44%;
+  height: 450px;
+  margin-top: 25px;
+  margin-right: 125px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: 1px solid rgba(16, 193, 206, 0.6);
+  border-radius: 20px;
+  overflow: hidden;
+}
+.body_box_fam {
+  width: 80%;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  margin: 50px auto;
+  // font-size: 20px;
+}
+.body_box_fam > div {
+  width: 98%;
+  margin-left: 2%;
+  border-left: 2px solid rgba(255,255,255,0);
+  transition: 0.5s all;
+}
+.body_box_fam > div > p {
+  margin-left: 5px;
+}
+.body_box_fam_one {
+  width: 100%;
+  line-height: 87px;
+  flex: 1;
+}
+.body_box_fam_one > div {
+  margin-left: 50px;
+}
+.body_box_fam_two {
+  width: 100%;
+  flex: 1;
+}
+.body_box_fam_two > p {
+  line-height: 87px;
+}
+.body_box_fam_two > div {
+  margin-top: 33px;
+}
+.body_box_fam_two > div {
+  margin-left: 50px;
+}
+.body_box_fam_three {
+  width: 100%;
+  line-height: 87px;
+  flex: 1;
+}
+.body_box_fam_four {
+  width: 100%;
+  line-height: 87px;
+  flex: 1;
+}
+.body_box_fam p{
+  float: left;
+}
+
+
+
+/* 贾正秋样式 */
+.zzqdiv > div {
+  height: 450px;
+  // background: pink;
+  margin-top: 25px;
+  width: 450px;
+}
+.zzqdiv > .left >img {
+  height: 400px;
+  width: 400px;
+}
+.zzqdiv .zzqleftdiv {
+  // background: pink;
+  margin-left: -20px;
+  border-left: 1px solid #000;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid#000;
+  border-radius: 20px 0 0 20px;
+}
+.zzqleftdiv > img {
+  margin: 16px 0 0 77px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 130px;
+  border-right: 2px solid #000;
+  display: none;
+}
+.zzqdiv .zzqrightdiv {
+  margin-right: -20px;
+  border-right: 1px solid #000;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid#000;
+  border-radius: 0 20px 20px 0;
+}
+.zzqrightdiv > div {
+  margin-top: 73px;
+  display: none;
+}
+.zzqrightdiv > div > img {
+  width: 120px;
+  float: left;
+  margin-left: 50px;
+  border-radius: 50%;
+}
+.zzqrightdiv > div p:nth-child(2) {
+  width: 230px;
+  height: 80px;
+  line-height: 80px;
+  margin: 20px 0;
+  padding-left: 22px;
+  color: #000;
+  border-left: 2px solid#000;
+}
+.zzqrightdiv > div p:nth-child(3) {
+  width: 277px;
+  line-height: 30px;
+  margin-left: 50px;
+  margin-top: 80px;
+  text-indent: 28px;
+  font-size: 14px;
+  color:#000;
+  font-family: 'DFPOP1-W9', serif;
+}
+.zzqrightdiv > div p:nth-child(3):hover{
+  text-decoration: underline;
+}
+
+
+
+/* demo样式 */
+
+
+
+
+.demodiv > div {
+  height: 450px;
+  // background: pink;
+  margin-top: 25px;
+  width: 450px;
+}
+.demodiv > .left >img {
+  height: 400px;
+  width: 400px;
+}
+.demodiv .demoleftdiv {
+  // background: pink;
+  margin-left: -20px;
+  border-left: 1px solid #000;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid#000;
+  border-radius: 20px 0 0 20px;
+}
+.demoleftdiv > img {
+  margin: 16px 0 0 77px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 130px;
+  border-right: 2px solid #000;
+  display: none;
+}
+.demodiv .demorightdiv {
+  margin-right: -20px;
+  border-right: 1px solid #000;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid#000;
+  border-radius: 0 20px 20px 0;
+}
+.demorightdiv > div {
+  margin-top: 73px;
+  display: none;
+}
+.demorightdiv > div > img {
+  width: 120px;
+  float: left;
+  margin-left: 50px;
+  border-radius: 50%;
+}
+.demorightdiv > div p:nth-child(2) {
+  width: 230px;
+  height: 80px;
+  line-height: 80px;
+  margin: 20px 0;
+  padding-left: 22px;
+  color: #000;
+  border-left: 2px solid#000;
+}
+.zzqrightdiv > div p:nth-child(3) {
+  width: 277px;
+  line-height: 30px;
+  margin-left: 50px;
+  margin-top: 80px;
+  text-indent: 28px;
+  font-size: 14px;
+  color:#000;
+  font-family: 'DFPOP1-W9', serif;
+}
+.demorightdiv > div p:nth-child(3):hover{
+  text-decoration: underline;
+}
+
+/* 张猛id样式 */
+.zmdiv > div {
+  height: 450px;
+  margin-top: 25px;
+  width: 450px;
+}
+.zmdiv .zmleftdiv {
+  margin-left: 174px;
+  margin-top: -40px;
+  border-left: 1px solid rgba(227, 5, 0, .8);
+  border-top: 1px solid rgba(227, 5, 0, .8);
+  border-bottom: 1px solid rgba(227, 5, 0, .8);
+  border-radius: 20px 0 0 20px;
+}
+.zmleftdiv > img {
+  margin: -1px 0 0 77px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 130px;
+  border-right: 2px solid rgba(227, 5, 0, .8);
+  display: none;
+}
+.zmdiv .zmrightdiv {
+  margin-right: 174px;
+  margin-top: 90px;
+  border-right: 1px solid rgba(227, 5, 0, .8);
+  border-top: 1px solid rgba(227, 5, 0, .8);
+  border-bottom: 1px solid rgba(227, 5, 0, .8);
+  border-radius: 0 20px 20px 0;
+}
+.zmrightdiv > div {
+  margin-top: 73px;
+  display: none;
+}
+.zmrightdiv > div > img {
+  width: 120px;
+  float: left;
+  margin-left: 50px;
+  border-radius: 50%;
+}
+.zmrightdiv > div p:nth-child(2) {
+  width: 230px;
+  height: 80px;
+  line-height: 80px;
+  margin: 20px 0;
+  padding-left: 22px;
+  border-left: 2px solid rgba(227, 5, 0, .8);
+  color: rgba(227, 5, 0, .8);
+}
+.zmrightdiv > div p:nth-child(3) {
+  width: 277px;
+  line-height: 30px;
+  margin-left: 50px;
+  margin-top: 80px;
+  text-indent: 28px;
+  font-size: 14px;
+  color: rgba(227, 5, 0, .8);
+  font-family: 'Futura Bk BT', serif;
+}
+.zmrightdiv > div p:nth-child(3):hover{
+  text-decoration: underline;
+}
+/*
+  英文  Lucida Calligraphy
+  Riesling
+  Ravie
+  Blackadder ITC
+ */
+/* 汉字
+  微软雅黑
+  方正兰亭超细黑简体
+  北岸钢笔楷书书法字体
+  方正书体
+
+  DFPOP1-W9
+  Malgun Gothic
+华文仿宋
+ */
+
+
+/* 李庆华样式 */
+.lqhdiv > div {
+  height: 450px;
+  margin-top: 25px;
+  width: 450px;
+}
+.lqhdiv .lqhleftdiv {
+  margin-left: 174px;
+  margin-top: 90px;
+  border-left: 1px solid #A24540;
+  border-top: 1px solid #A24540;
+  border-bottom: 1px solid #A24540;
+  border-radius: 20px 0 0 20px;
+}
+.lqhleftdiv > img {
+  margin:-1px 0 0 77px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 130px;
+  border-right: 2px solid #A24540;
+  display: none;
+}
+.lqhdiv .lqhrightdiv {
+  margin-right: 174px;
+  margin-top: -40px;
+  border-right: 1px solid #A24540;
+  border-top: 1px solid #A24540;
+  border-bottom: 1px solid #A24540;
+  border-radius: 0 20px 20px 0;
+}
+.lqhrightdiv > div {
+  margin-top: 73px;
+  display: none;
+  border-radius: 50%;
+}
+.lqhrightdiv > div > img {
+  width: 120px;
+  float: left;
+  margin-left: 50px;
+  border-radius: 50%;
+}
+.lqhrightdiv > div p:nth-child(2) {
+  width: 230px;
+  height: 80px;
+  line-height: 80px;
+  margin: 20px 0;
+  padding-left: 22px;
+  border-left: 2px solid #A24540;
+  color: #A24540;
+}
+.lqhrightdiv > div p:nth-child(3) {
+  width: 277px;
+  line-height: 30px;
+  margin-left: 50px;
+  margin-top: 80px;
+  text-indent: 28px;
+  font-size: 14px;
+  color: #A24540;
+  font-family: '华文新魏', serif;
+}
+.lqhrightdiv > div p:nth-child(3):hover{
+  text-decoration: underline;
+}
+
+
+
+/* 潘婷样式 */
+.ptdiv > div {
+  height: 450px;
+  margin-top: 25px;
+  width: 450px;
+}
+.ptdiv .ptleftdiv {
+  margin-left: 174px;
+  margin-top: -40px;
+  border-left: 1px solid rgba(216, 78, 192, 0.85);
+  border-top: 1px solid rgba(216, 78, 192, 0.85);
+  border-bottom: 1px solid rgba(216, 78, 192, 0.85);
+  border-radius: 20px 0 0 20px;
+}
+.ptleftdiv > img {
+  margin-top: -1px;
+  margin-left: 77px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 130px;
+  border-right: 2px solid rgba(216, 78, 192, 0.85);
+  display: none;
+}
+.ptdiv .ptrightdiv {
+  margin-right: 174px;
+  margin-top: -40px;
+  border-right: 1px solid rgba(216, 78, 192, 0.85);
+  border-top: 1px solid rgba(216, 78, 192, 0.85);
+  border-bottom: 1px solid rgba(216, 78, 192, 0.85);
+  border-radius: 0 20px 20px 0;
+}
+.ptrightdiv > div {
+  margin-top: 73px;
+  display: none;
+}
+.ptrightdiv > div > img {
+  width: 120px;
+  float: left;
+  margin-top: -350px;
+  margin-left: 50px;
+  border-radius: 50%;
+}
+.ptrightdiv > div p:nth-child(2) {
+  width: 230px;
+  height: 80px;
+  line-height: 80px;
+  margin: 20px 0;
+  padding-left: 22px;
+  border-left: 2px solid rgba(216, 78, 192, 0.85);
+  color: rgba(216, 78, 192, 0.85);
+}
+.ptrightdiv > div p:nth-child(3) {
+  width: 277px;
+  line-height: 30px;
+  margin-left: 50px;
+  margin-top: 80px;
+  text-indent: 28px;
+  font-size: 14px;
+  color: rgba(216, 78, 192, 0.85);
+  font-family: '华文新魏', serif;
+}
+.ptrightdiv > div p:nth-child(3):hover{
+  text-decoration: underline;
+}
+
+
+/* 尹秀娟样式 */
+.yxjdiv > div {
+  height: 450px;
+  margin-top: 25px;
+  width: 450px;
+}
+.yxjdiv .yxjleftdiv {
+  margin-left: 174px;
+  margin-top: 90px;
+  border-left: 1px solid rgba(102, 64, 175, 0.45);
+  border-top: 1px solid rgba(102, 64, 175, 0.45);
+  border-bottom: 1px solid rgba(102, 64, 175, 0.45);
+  border-radius: 20px 0 0 20px;
+}
+.yxjleftdiv > img {
+  margin: 53px 0 0 77px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 130px;
+  border-right: 2px solid rgba(102, 64, 175, 0.45);
+  display: none;
+}
+.yxjdiv .yxjrightdiv {
+  margin-right: 174px;
+  margin-top: 90px;
+  border-right: 1px solid rgba(102, 64, 175, 0.45);
+  border-top: 1px solid rgba(102, 64, 175, 0.45);
+  border-bottom: 1px solid rgba(102, 64, 175, 0.45);
+  border-radius: 0 20px 20px 0;
+}
+.yxjrightdiv > div {
+  margin-top: 73px;
+  display: none;
+}
+.yxjrightdiv > div > img {
+  width: 120px;
+  transform: scale(0);
+  float: left;
+  margin-left: 50px;
+  animation: yxjdong 3s 0.5s 1 forwards ease ;
+  border-radius: 50%;
+}
+/* 尹秀娟动画  */
+@keyframes yxjdong {
+    0% {
+        transform: scale(0);
+    }
+    49% {
+      transform: scale(0);
+    }
+    50% {
+      transform: scale(0.7);
+    }
+    55% {
+        transform: scale(1.5);
+    }
+    60% {
+        transform: scale(0.8);
+    }
+    70% {
+      transform: scale(1.3);
+    }
+    82% {
+      transform: scale(0.9);
+    }
+    90% {
+      transform: scale(1.1);
+    }
+    100%{
+        transform:  scale(1);
+    }
+}
+.yxjrightdiv > div p:nth-child(2) {
+  width: 230px;
+  height: 80px;
+  line-height: 80px;
+  margin: 20px 0;
+  padding-left: 22px;
+  border-left: 2px solid rgba(102, 64, 175, 0.45);
+  color: rgba(102, 64, 175, 0.45);
+}
+.yxjrightdiv > div p:nth-child(3) {
+  width: 277px;
+  line-height: 30px;
+  margin-left: 50px;
+  margin-top: 80px;
+  text-indent: 28px;
+  font-size: 14px;
+  color: rgba(102, 64, 175, 0.45);
+  font-family: '仿宋', serif;
+  font-weight: bold;
+}
+.yxjrightdiv > div p:nth-child(3):hover{
+  text-decoration: underline;
+}
+
+
+
+/* 宋雪洁样式 */
+.sxjdiv > div {
+  height: 450px;
+  margin-top: 25px;
+  width: 450px;
+}
+.sxjdiv .sxjleftdiv {
+  margin-left: 174px;
+  margin-top: -40px;
+  border-left: 1px solid rgba(229, 16, 64, 0.85);
+  border-top: 1px solid rgba(229, 16, 64, 0.85);
+  border-bottom: 1px solid rgba(229, 16, 64, 0.85);
+  border-radius: 20px 0 0 20px;
+}
+.sxjleftdiv > img {
+  margin-top: 53px;
+  margin-left: 77px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 130px;
+  border-right: 2px solid rgba(229, 16, 64, 0.85);
+  display: none;
+}
+.sxjdiv .sxjrightdiv {
+  margin-right: 174px;
+  margin-top: -40px;
+  border-right: 1px solid rgba(229, 16, 64, 0.85);
+  border-top: 1px solid rgba(229, 16, 64, 0.85);
+  border-bottom: 1px solid rgba(229, 16, 64, 0.85);
+  border-radius: 0 20px 20px 0;
+}
+.sxjrightdiv > div {
+  margin-top: 73px;
+  display: none;
+}
+.sxjrightdiv > div > img {
+  width: 120px;
+  border-radius: 50%;
+  margin-left: 50px;
+  // float: left;
+  // margin-top: -350px;
+  // margin-left: 50px;
+}
+.sxjrightdiv > div p:nth-child(2) {
+  width: 230px;
+  height: 80px;
+  line-height: 80px;
+  margin: 20px 0;
+  padding-left: 22px;
+  border-left: 2px solid rgba(229, 16, 64, 0.85);
+  color: rgba(229, 16, 64, 0.85);
+}
+.sxjrightdiv > div p:nth-child(3) {
+  width: 277px;
+  line-height: 30px;
+  margin-left: 50px;
+  margin-top: 80px;
+  text-indent: 28px;
+  font-size: 14px;
+  color: rgba(229, 16, 64, 0.85);
+  font-family: '微软雅黑', serif;
+}
+.sxjrightdiv > div p:nth-child(3):hover{
+  text-decoration: underline;
+}
+
+
+
+/* 张志锋样式 */
+.zzfdiv > div {
+  height: 450px;
+  margin-top: 25px;
+  width: 450px;
+}
+.zzfdiv .zzfleftdiv {
+  margin-left: 174px;
+  margin-top: 90px;
+  border-left: 1px solid rgba(0, 206, 233, 0.9);
+  border-top: 1px solid rgba(0, 206, 233, 0.9);
+  border-bottom: 1px solid rgba(0, 206, 233, 0.9);
+  border-radius: 20px 0 0 20px;
+}
+.zzfleftdiv > img {
+  margin-top: 53px;
+  margin-left: 77px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 130px;
+  border-right: 2px solid rgba(0, 206, 233, 0.9);
+  display: none;
+}
+.zzfdiv .zzfrightdiv {
+  margin-right: 174px;
+  margin-top: 90px;
+  border-right: 1px solid rgba(0, 206, 233, 0.9);
+  border-top: 1px solid rgba(0, 206, 233, 0.9);
+  border-bottom: 1px solid rgba(0, 206, 233, 0.9);
+  border-radius: 0 20px 20px 0;
+}
+.zzfrightdiv > div {
+  margin-top: 73px;
+  display: none;
+}
+.zzfrightdiv > div > img {
+  width: 120px;
+  border-radius: 50%;
+  margin-left: 50px;
+}
+.zzfrightdiv > div p:nth-child(2) {
+  width: 230px;
+  height: 80px;
+  line-height: 80px;
+  margin: 20px 0;
+  padding-left: 22px;
+  border-left: 2px solid rgba(0, 206, 233, 0.9);
+  color: rgba(0, 206, 233, 0.9);
+}
+.zzfrightdiv > div p:nth-child(3) {
+  width: 277px;
+  line-height: 30px;
+  margin-left: 50px;
+  margin-top: 80px;
+  text-indent: 28px;
+  font-size: 14px;
+  color: rgba(0, 206, 233, 0.9);
+  font-family: '北岸钢笔楷书书法字体', serif;
+}
+.zzfrightdiv > div p:nth-child(3):hover{
+  text-decoration: underline;
+}
+
+
+
+/* mjr样式  */
+.mjrdiv > div {
+  height: 450px;
+  margin-top: 25px;
+  width: 450px;
+}
+.mjrdiv .mjrleftdiv {
+  margin-left: 174px;
+  margin-top: 90px;
+  border-left: 1px solid rgba(0, 128, 155, 0.8);
+  border-top: 1px solid rgba(0, 128, 155, 0.8);
+  border-bottom: 1px solid rgba(0, 128, 155, 0.8);
+  border-radius: 20px 0 0 20px;
+}
+.mjrleftdiv > img {
+  margin-top: -1px;
+  margin-left: 77px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 130px;
+  border-right: 2px solid rgba(0, 128, 155, 0.8);
+  display: none;
+}
+.mjrdiv .mjrrightdiv {
+  margin-right: 174px;
+  margin-top: 90px;
+  border-right: 1px solid rgba(0, 128, 155, 0.8);
+  border-top: 1px solid rgba(0, 128, 155, 0.8);
+  border-bottom: 1px solid rgba(0, 128, 155, 0.8);
+  border-radius: 0 20px 20px 0;
+}
+.mjrrightdiv > div {
+  margin-top: 73px;
+  display: none;
+}
+.mjrrightdiv > div > img {
+  width: 120px;
+  margin-left: 50px;
+  border-radius: 50%;
+}
+.mjrrightdiv > div p:nth-child(2) {
+  width: 230px;
+  height: 80px;
+  line-height: 80px;
+  margin: 20px 0;
+  padding-left: 22px;
+  border-left: 2px solid rgba(0, 128, 155, 0.8);
+  color: rgba(0, 128, 155, 0.8);
+}
+.mjrrightdiv > div p:nth-child(3) {
+  width: 277px;
+  line-height: 30px;
+  margin-left: 50px;
+  margin-top: 80px;
+  text-indent: 28px;
+  font-size: 14px;
+  color: rgba(0, 128, 155, 0.8);
+  font-family: '北岸钢笔楷书书法字体', serif;
+}
+.mjrrightdiv > div p:nth-child(3):hover{
+  text-decoration: underline;
+}
+
+
+
+/* 王博文样式  */
+.wbwdiv > div {
+  height: 450px;
+  margin-top: 25px;
+  width: 450px;
+}
+.wbwdiv .wbwleftdiv {
+  margin-left: 174px;
+  margin-top: -40px;
+  border-left: 1px solid rgba(4, 6, 3, 0.92);
+  border-top: 1px solid rgba(4, 6, 3, 0.92);
+  border-bottom: 1px solid rgba(4, 6, 3, 0.92);
+  border-radius: 20px 0 0 20px;
+}
+.wbwleftdiv > img {
+  margin-top: -1px;
+  margin-left: 77px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 130px;
+  border-right: 2px solid rgba(4, 6, 3, 0.92);
+  display: none;
+}
+.wbwdiv .wbwrightdiv {
+  margin-right: 174px;
+  margin-top: -40px;
+  border-right: 1px solid rgba(4, 6, 3, 0.92);
+  border-top: 1px solid rgba(4, 6, 3, 0.92);
+  border-bottom: 1px solid rgba(4, 6, 3, 0.92);
+  border-radius: 0 20px 20px 0;
+}
+.wbwrightdiv > div {
+  margin-top: 73px;
+  display: none;
+}
+.wbwrightdiv > div > img {
+  width: 120px;
+  margin-left: 50px;
+  border-radius: 50%;
+}
+.wbwrightdiv > div p:nth-child(2) {
+  width: 230px;
+  height: 80px;
+  line-height: 80px;
+  margin: 20px 0;
+  padding-left: 22px;
+  border-left: 2px solid rgba(4, 6, 3, 0.92);
+  color: rgba(4, 6, 3, 0.92);
+}
+.wbwrightdiv > div p:nth-child(3) {
+  width: 277px;
+  line-height: 30px;
+  margin-left: 50px;
+  margin-top: 80px;
+  text-indent: 28px;
+  font-size: 14px;
+  color: rgba(4, 6, 3, 0.92);
+  font-family: '北岸钢笔楷书书法字体', serif;
+}
+.wbwrightdiv > div p:nth-child(3):hover{
+  text-decoration: underline;
+}
+
+
+
+
+/* 赵呵呵样式  */
+.zhhdiv > div {
+  height: 450px;
+  margin-top: 25px;
+  width: 450px;
+}
+.zhhdiv .zhhleftdiv {
+  margin-left: 125px;
+  margin-top: 25px;
+  border-left: 1px solid rgba(0, 206, 233, 0.9);
+  border-top: 1px solid rgba(0, 206, 233, 0.9);
+  border-bottom: 1px solid rgba(0, 206, 233, 0.9);
+  border-radius: 20px 0 0 20px;
+}
+.zhhleftdiv > img {
+  margin-top: -1px;
+  margin-left: 77px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 130px;
+  border-right: 2px solid rgba(0, 206, 233, 0.9);
+  display: none;
+}
+.zhhdiv .zhhrightdiv {
+  margin-right: 125px;
+  margin-top: 25px;
+  border-right: 1px solid rgba(0, 206, 233, 0.9);
+  border-top: 1px solid rgba(0, 206, 233, 0.9);
+  border-bottom: 1px solid rgba(0, 206, 233, 0.9);
+  border-radius: 0 20px 20px 0;
+}
+.zhhrightdiv > div {
+  margin-top: 73px;
+  display: none;
+}
+.zhhrightdiv > div > img {
+  width: 120px;
+  margin-left: 50px;
+  border-radius: 50%;
+}
+.zhhrightdiv > div p:nth-child(2) {
+  width: 230px;
+  height: 80px;
+  line-height: 80px;
+  margin: 20px 0;
+  padding-left: 22px;
+  border-left: 2px solid rgba(0, 206, 233, 0.9);
+  color: rgba(0, 206, 233, 0.9);
+}
+.zhhrightdiv > div p:nth-child(3) {
+  width: 277px;
+  line-height: 30px;
+  margin-left: 50px;
+  margin-top: 80px;
+  text-indent: 28px;
+  font-size: 14px;
+  color: rgba(0, 206, 233, 0.9);
+  font-family: '方正书体', serif;
+}
+.zhhrightdiv > div p:nth-child(3):hover{
+  text-decoration: underline;
+}
+
+main {
+  position: absolute;
+  top: -700px;
+  left: 0;
+}
+
+#tanchudivs.grid__item {
+  display: none;
+  width: 100%;
+  height: 756px;
+  position: absolute;
+  // top: 0;
+  // left: 0;
+}
+.particles-wrapper {
+  left: 40%;
+}
+.particles {
+  top: 300px;
+}
+.wbwleftdiv img{
+  height: 411px;
+  width: 390px;
+  z-index: -1;
+}
+.zhhleftdiv img {
+  height: 450px;
+  width: 450px;
+}
+strong {
+  color: #e69800;
+  font-size: 20px;
+}

@@ -1,0 +1,10 @@
+.hidden {
+  display: none;
+  
+}
+
+#spring-text {
+  position: fixed;
+  z-index: -999;
+  /* margin-top: 200px; */
+}

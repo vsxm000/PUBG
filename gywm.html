@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset=utf-8>
+  <meta name="description" content="网页描述信息">
+  <meta name="keywords" content="设置网页关键字" />
+  <meta name=viewport content="width=device-width, initial-scale=1">
+  <title>关于我们</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/gywm.css">
+  <link rel="stylesheet" href="css/lizifont.css">
+  <!-- 立方体 -->
+  <link rel="stylesheet" type="text/css" href="css/lifangti.css">
+  <!-- 字体图标 -->
+  <link rel="stylesheet" type="text/css" href="fonts/font_860528_yolcofjjpbs/iconfont.css">
+  <!-- 弹出层按钮样式 -->
+  <link rel="stylesheet" type="text/css" href="css/ourBase.css" />
+  <style>
+  .project{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 8%;
+    right: 0;
+  }
+  .project img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+  body {
+    background:url(img/1.jpg)
+  }
+  
+  </style>
+</head>
+<body class="demo-1">
+<!-- 粒子背景   尝试移动鼠标并单击文本区域 -->
+<div id="title-desktop" class="hidden"></div>
+<canvas id="spring-text"></canvas>
+<!-- 动态背景 -->
+<!-- <div id="bgc_div">
+  <div id="particles">
+    <div class="intro">
+    </div>
+  </div>
+</div> -->
+<!-- 网页整体 -->
+<audio src="medias/01.mp3" loop autoplay></audio>
+<a href="pages/firstpage.html" class="project"><img src="img/logo_b.png"></a>
+  
+
+<!-- 背景轮播 -->
+<div id="bgclb">
+  <div class="leftbox"><a href="javascript:" class="iconfont icon-fanhui"></a></div>
+  <div class="rightbox"><a href="javascript:" class="iconfont icon-gengduo"></a></div>
+</div>
+
+<!-- 展示 -->
+<div class="body_box w">
+  <div class="about_us clearfix">
+    <ul>
+      <!-- 关于我们 -->
+      <li class="clearfix active">
+        <!-- 立方体背景 -->
+        <!-- 左边盒子 -->
+        <div class="lifangti_bg left">
+          <!-- 立方体显示头像 -->
+          <div class="lifangti">
+            <div class="beform bgabox"></div>
+            <div class="afterm bgabox"></div>
+            <div class="leftm bgabox"></div>
+            <div class="rightm bgabox"></div>
+            <div class="topm bgabox"></div>
+            <div class="bottomm bgabox"></div>
+            <div class="lifangtimin">
+              <div class="beformm"></div>
+              <div class="aftermm"></div>
+              <div class="leftmm"></div>
+              <div class="rightmm"></div>
+              <div class="topmm"></div>
+              <div class="bottommm"></div>
+            </div>
+          </div>
+          <p>
+          <span>PUBG小组</span><br />
+          <span><strong>大吉大利，今晚吃鸡</strong></span>
+          </p>
+        </div>
+        <!-- 右边盒子 -->
+        <div class="bodybg_rig right">
+          <div class="body_box_fam">
+            <div class="body_box_fam_one">
+              <p>组长：</p>
+              <div></div>
+            </div>
+            <div class="body_box_fam_two">
+              <p>组员：</p>
+              <div></div>
+            </div>
+            <div class="body_box_fam_three">
+              <p>时间：</p>
+              <div> </div>
+            </div>
+            <div class="body_box_fam_four">
+              <p>地点：</p>
+              <div></div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <!-- 陈宁宁 -->
+      <li class="clearfix">
+        <div class="zzqdiv">
+          <div class="zzqleftdiv left">
+            <img src="img/cnn.png" alt="陈宁宁" title="陈宁宁">
+          </div>
+          <div class="zzqrightdiv right">
+            <div>
+              <img src="img/cnnmin.jpg" alt="" title="陈宁宁">
+              <p class="right">陈宁宁-首页</p>
+              <p class="left">
+               我不管，我最帅，我就是天下第一帅
+              </p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <!-- 马明星 -->
+      <li class="clearfix">
+        <div class="zmdiv">
+          <div class="zmleftdiv left">
+            <img src="img/wx-mmx.png" alt="马明星" title="马明星">
+          </div>
+          <div class="zmrightdiv right">
+            <div class="right">
+              <img src="img/mmx.jpg" alt="" title="马明星">
+              <p class="right">马明星-生存通行证</p>
+              <p class="left">
+                不乱于心，不困于情，不畏将来，不念过往，如此，安好
+              </p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <!-- 孙小敏 -->
+      <li class="clearfix">
+        <div class="lqhdiv">
+          <div class="lqhleftdiv left">
+            <img src="img/wx-sxm.png" alt="孙晓敏" title="孙晓敏">
+          </div>
+          <div class="lqhrightdiv right">
+            <div>
+              <img src="img/sxm.jpg" alt="" title="孙晓敏">
+              <p class="right">孙晓敏-维寒迪之旅</p>
+              <p class="left">
+                每天的太阳都是新的              </p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <!--赵欣欣-->
+      <li class="clearfix">
+        <div class="ptdiv clearfix">
+          <div class="ptleftdiv left">
+            <img src="img/wx-zxx.png" alt="赵欣欣" title="赵欣欣">
+          </div>
+          <div class="ptrightdiv right">
+            <div>
+              <img src="img/zxx.jpg" alt="" title="赵欣欣">
+              <p class="right">赵欣欣-头部尾部</p>
+              <p class="left">
+                人生最精彩的不是实现梦想的瞬间，而是坚持梦想的过程。              </p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <!-- 尹秀娟 -->
+      <li class="clearfix">
+        <div class="yxjdiv">
+          <div class="yxjleftdiv left">
+            <img src="img/wx-xsc.png" alt="许世丛" title="许世丛">
+          </div>
+          <div class="yxjrightdiv right">
+            <div>
+              <img src="img/xsc.jpg" alt="" title="许世丛">
+              <p class="right">许世丛-手办页面</p>
+              <p class="left">
+                刚开始是假装坚强，后来就真的坚强了
+              </p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <!-- 宋雪洁 -->
+      <li class="clearfix">
+        <div class="sxjdiv">
+          <div class="sxjleftdiv left">
+            <img src="img/wx-jmx.png" alt="蒋妙秀" title="蒋妙秀">
+          </div>
+          <div class="sxjrightdiv right">
+            <div>
+              <img src="img/jmx.jpg" alt="" title="蒋妙秀">
+              <p class="right">蒋妙秀-国服注册</p>
+              <p class="left">
+                活的不必太惊喜，只要精彩就足够。
+              </p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <!-- 张志锋 -->
+      <li class="clearfix">
+        <div class="zzfdiv">
+          <div class="zzfleftdiv left">
+            <img src="img/wx-fhq.png" alt="冯贺齐" title="冯贺齐">
+          </div>
+          <div class="zzfrightdiv right">
+            <div>
+              <img src="img/fhq.jpg" alt="" title="冯贺齐">
+              <p class="right">冯贺齐-登录页面</p>
+              <p class="left">
+                既然选取了远方，便只顾风雨兼程
+              </p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <!-- 马佳瑞 -->
+      <li class="clearfix">
+        <div class="mjrdiv">
+          <div class="mjrleftdiv left">
+            <img src="img/wx-slj.png" alt="孙丽娟" title="孙丽娟">
+          </div>
+          <div class="mjrrightdiv right">
+            <div>
+              <img src="img/slj.jpg" alt="" title="孙丽娟">
+              <p class="right">孙丽娟-网吧认证</p>
+              <p class="left">
+                该做的事就立即行动吧，没有一件事会因为你的拖延而变好的。
+              </p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <!-- 王博文 -->
+      <li class="clearfix">
+        <div class="wbwdiv">
+          <div class="wbwleftdiv left">
+            <img src="img/left1.png" alt="孟祥远" title="孟祥远">
+          </div>
+          <div class="wbwrightdiv right">
+            <div>
+              <img src="img/tlh.jpg" alt="" title="田立豪">
+              <p class="right">田立豪-游戏特色</p>
+              <p class="left">
+                在哪里跌倒就从哪里爬起来，总是在那里跌倒，我就怀疑那有个坑
+              </p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <!-- 李占磊 -->
+      <li class="clearfix">
+        <div class="zhhdiv">
+          <div class="zhhleftdiv left">
+            <img src="img/left2.png" alt="李占磊" title="李占磊">
+          </div>
+          <div class="zhhrightdiv right">
+            <div>
+              <img src="img/zq.jpg" alt="" title="李占磊">
+              <p class="right">周琴-绑定查询</p>
+              <p class="left">
+                真正自信的源头，来自于你自己，而不是他人是否喜欢你
+              </p>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+<!-- 弹出层 -->
+<main>
+  <div class="grid" id="tanchudiv">
+    <div class="grid__item theme-11" id="tanchudivs">
+        <button class="action"><svg class="icon icon--rewind"><use xlink:href="#icon-rewind"></use></svg></button>
+        <button class="particles-button">点击复制: 15110012002</button>
+    </div>
+  </div>
+</main>
+
+<!-- 粒子字体 -->
+<script src="js/vendor/jquery_lizifont.js"></script>
+<!-- 背景动画 <-->
+<script type='text/javascript' src='lib/jquery-1.11.1.min.js'></script>
+<script type='text/javascript' src='js/vendor/jquery.particleground.min.js'></script>
+<script type='text/javascript' src='js/vendor/demo.js'></script>
+
+<!-- 引入按钮js文件 -->
+<script src='js/vendor/anime.min.js'></script>
+<script src='js/vendor/particles.js'></script>
+<script src='js/vendor/demobutton.js'></script>
+<!-- 引入内部js文件 -->
+<script src="js/gywm.js"></script>
+</body>
+</html>
+
+

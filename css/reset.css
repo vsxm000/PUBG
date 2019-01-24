@@ -1,0 +1,44 @@
+/*默认样式清除*/
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,dl,li,dt,dd{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    font-size: 16px;
+    font-family: "微软雅黑";
+    color: #505050;
+}
+
+a{
+    text-decoration: none;
+    color: #505050;
+}
+input,img{
+    vertical-align: top;
+    border: 0 none;
+    outline-style: hidden;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    height: 0;
+    line-height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.clearfix{
+    zoom: 1;
+}
+.w{
+    width: 92%;
+    margin: 0 auto;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+body,html{
+    width: 100%;
+}
